@@ -1,7 +1,7 @@
 /*
   This program senses which direction you are pointing the Arduino
   joystick with. Up = both lights on, down = both lights off, right = one light on, left = other light on,
-  no direction = both lights alternating. Directions are also printed in the serial monitor.
+  no direction = both lights alternating, press down on joystick = reset program. Directions are also printed in the serial monitor.
 */
 /*
   Joystick inputs: connect GND to GND, +5V to 5V, VRx to A0, VRy to A1, and MS to Vin
